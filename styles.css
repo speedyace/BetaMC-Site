@@ -34,7 +34,16 @@ body {
 #comingSoon{
     font-size: x-large;
 }
+
+#Discordlink img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    height: auto;
+    width: 20%;
     
+}
+
 
 .footerContainer{
     color: #ffffffef;
@@ -44,7 +53,6 @@ body {
     font-style: normal; 
     position: absolute;
     bottom: 10px;
-   
 
 }
 .footerContainer a{
