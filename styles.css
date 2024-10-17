@@ -1,9 +1,15 @@
+@font-face {
+    font-family: 'minecraftia';
+    src: url(Fonts/Minecraftia.ttf);
+}
+
 body {
-    background: #000a2e;
+    background-image: url(Assets/nightsky.png);
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 img {
@@ -69,10 +75,15 @@ img {
 #MainText {
     color: #ffffffef;
     text-align: center !important;
+    font-family: 'minecraftia';
+    font-weight: normal;
+    font-style: normal; 
+    
 }
 
 h1 {
-    font-size: 2.25rem;
+   
+    font-size: 3rem;
     font-weight: 500;
     line-height: 1.2;
     margin-top: 0;
