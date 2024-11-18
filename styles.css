@@ -76,11 +76,22 @@ body {
 }
 
 #MainText {
+    height: 200px;
+    width: 500px;
+    padding: 40px;
     color: #ffffffef;
     text-align: center;
     font-weight: normal;
     font-style: normal; 
     
+}
+
+.rotate {
+    transform:rotate(-20deg);
+    text-align: right;
+    position: absolute;
+    top: 30%;
+    right: 12%
 }
 
 .pop{
