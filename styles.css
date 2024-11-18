@@ -18,6 +18,7 @@
     padding: 15px;
     align-items: left;
     padding-bottom: 5%;
+    top: 5px;
 
 }
 
@@ -45,9 +46,17 @@ body {
     display: flex;
 }
 
+#mainLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+
 #mainDiv {
     color: #ffffffef;
-    top: 35%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -58,6 +67,14 @@ body {
     flex-direction: column;
 }
 
+#MainAbout{
+    list-style-type: none;
+}
+
+#mainDiv h1 {
+    font-size: 60px;
+}
+
 #MainText {
     color: #ffffffef;
     text-align: center;
@@ -66,10 +83,50 @@ body {
     
 }
 
-#comingSoon{
+.pop{
+    animation: pop 0.58s infinite;
+    -webkit-animation: pop 0.58s infinite;
+    color: gold;
     font-size: x-large;
 }
 
+@keyframes pop {
+    from {
+        transform:scale(0.95)
+    }
+    50% {
+        transform:scale(1)
+    }
+    to {
+        transform:scale(0.95)
+    }
+}
+
+@-webkit-keyframes pop {
+    from {
+        -webkit-transform:scale(0.95)
+    }
+    50% {
+        -webkit-transform:scale(1)
+    }
+    to {
+        -webkit-transform:scale(0.95)
+    }
+}
+
+
+@-moz-keyframes pop {
+    from {
+        -webkit-transform:scale(0.95)
+    }
+    50% {
+        -webkit-transform:scale(1)
+    }
+    to {
+        -webkit-transform:scale(0.95)
+    }
+
+}
 #Discordlink img{
     display: block;
     margin: 0 auto;
