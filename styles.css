@@ -3,6 +3,42 @@
     src: url(Fonts/Minecraftia.ttf);
 }
 
+* {
+    font-family: minecraftia;
+}
+
+.navLogo {
+    height: 60px;
+    width: auto;
+
+
+}
+
+.navbar {
+    padding: 15px;
+    align-items: left;
+    padding-bottom: 5%;
+
+}
+
+.navbar a{
+    margin: 0 20px;
+    font-size: 20;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: gold;
+
+}
+
+.navbar img{
+    height: 4em;
+    padding: 0 16px;
+
+}
+
 body {
     background-image: url(Assets/nightsky.png);
     overflow: hidden;
@@ -18,14 +54,13 @@ body {
     z-index: 8;
     align-items: center;
     justify-content: center;
-    display: flex !important;
-    flex-direction: column !important;
+    display: flex;
+    flex-direction: column;
 }
 
 #MainText {
     color: #ffffffef;
-    text-align: center !important;
-    font-family: 'minecraftia';
+    text-align: center;
     font-weight: normal;
     font-style: normal; 
     
@@ -48,7 +83,6 @@ body {
 .footerContainer{
     color: #ffffffef;
     font-size: x-small;
-    font-family: 'minecraftia';
     font-weight: normal;
     font-style: normal; 
     position: absolute;
@@ -57,4 +91,15 @@ body {
 }
 .footerContainer a{
     color: #ffffffef;;
+}
+
+#MainAbout {
+    color: #ffffffef;
+    padding-top: 10px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 8;
+    align-items: center;
 }
