@@ -59,7 +59,7 @@ body {
     flex-direction: column;
 }
 
-#MainAbout{
+#mainAbout{
     list-style-type: none;
 }
 
@@ -68,7 +68,7 @@ body {
     color: grey;
 }
 
-#MainText {
+#mainText {
     height: 200px;
     width: 500px;
     padding: 40px;
@@ -132,7 +132,7 @@ body {
     }
 
 }
-#Discordlink img{
+#discordLink img{
     display: block;
     margin: 0 auto;
     margin-top: 25px;
@@ -155,7 +155,7 @@ body {
     color: #ffffffef;;
 }
 
-#MainAbout {
+#mainAbout {
     color: #ffffffef;
     padding-top: 10px;
     top: 30%;
