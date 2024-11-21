@@ -10,8 +10,6 @@
 .navLogo {
     height: 60px;
     width: auto;
-
-
 }
 
 .navbar {
@@ -31,13 +29,11 @@
 
 .navbar a:hover {
     color: gold;
-
 }
 
 .navbar img {
     height: 4em;
     padding: 0 16px;
-
 }
 
 body {
@@ -119,7 +115,6 @@ body {
     }
 }
 
-
 @-moz-keyframes pop {
     from {
         -webkit-transform:scale(0.95)
@@ -132,6 +127,7 @@ body {
     }
 
 }
+
 #discordLink img {
     display: block;
     margin: 0 auto;
@@ -152,7 +148,7 @@ body {
 
 }
 .footerContainer a {
-    color: #ffffffef;;
+    color: #ffffffef;
 }
 
 #mainAbout {
@@ -167,6 +163,5 @@ body {
 }
 
 hr {
-background-color: white;
-
+    background-color: white;
 }
