@@ -71,8 +71,7 @@ body {
     color: #ffffffef;
     text-align: center;
     font-weight: normal;
-    font-style: normal; 
-    
+    font-style: normal;
 }
 
 .rotate {
@@ -85,10 +84,8 @@ body {
 
 .pop {
     animation: pop 0.58s infinite;
-    -webkit-animation: pop 0.58s infinite;
     color: gold;
     font-size: x-large;
-
 }
 
 @keyframes pop {
@@ -103,40 +100,13 @@ body {
     }
 }
 
-@-webkit-keyframes pop {
-    from {
-        -webkit-transform:scale(0.95)
-    }
-    50% {
-        -webkit-transform:scale(1)
-    }
-    to {
-        -webkit-transform:scale(0.95)
-    }
-}
-
-@-moz-keyframes pop {
-    from {
-        -webkit-transform:scale(0.95)
-    }
-    50% {
-        -webkit-transform:scale(1)
-    }
-    to {
-        -webkit-transform:scale(0.95)
-    }
-
-}
-
 #discordLink img {
     display: block;
     margin: 0 auto;
     margin-top: 25px;
     height: auto;
     width: 20%;
-    
 }
-
 
 .footerContainer {
     color: #ffffffef;
@@ -145,8 +115,8 @@ body {
     font-style: normal; 
     position: absolute;
     bottom: 10px;
-
 }
+
 .footerContainer a {
     color: #ffffffef;
 }
