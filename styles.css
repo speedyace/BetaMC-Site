@@ -111,6 +111,14 @@ body {
     width: 20%;
 }
 
+#discordLink {
+    text-align: center;
+}
+
+#discordLink a {
+    color: aqua;
+}
+
 .footerContainer {
     color: #ffffffef;
     font-size: x-small;
