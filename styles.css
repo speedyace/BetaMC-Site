@@ -38,6 +38,9 @@
 
 body {
     background-image: url(Assets/nightsky.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     overflow: hidden;
     display: flex;
 }
