@@ -2,35 +2,28 @@
     font-family: 'minecraftia';
     src: url(Fonts/Minecraftia.ttf);
 }
-
 * {
     font-family: minecraftia;
 }
-
 .navLogo {
     height: 60px;
     width: auto;
 }
-
 .navbar {
     padding: 15px;
     align-items: left;
     padding-bottom: 5%;
     top: 5px;
-
 }
-
 .navbar a {
     margin: 0 20px;
     font-size: 20;
     color: white;
     text-decoration: none;
 }
-
 .navbar a:hover {
     color: gold;
 }
-
 .navbar img {
     height: 4em;
     padding: 0 16px;
@@ -43,6 +36,44 @@ body {
     background-size: cover;
     overflow: hidden;
     display: flex;
+}
+
+body.donations {
+    overflow-y: auto;
+    display: block;
+    min-height: 100vh;
+}
+
+body.donations .navLogo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 10;
+}
+
+body.donations .navbar {
+    padding: 15px;
+    padding-left: 100px;
+    padding-top: 25px;
+    align-items: left;
+    padding-bottom: 20px;
+}
+
+body.donations #mainDiv {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin: 40px auto 80px auto;
+    width: 90%;
+    max-width: 800px;
+    text-align: left;
+}
+
+body.donations #mainText {
+    width: 100%;
+    height: auto;
+    text-align: left;
 }
 
 #mainDiv {
@@ -129,6 +160,13 @@ body {
     font-style: normal; 
     position: absolute;
     bottom: 10px;
+}
+
+body.donations .footerContainer {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
 }
 
 .footerContainer a {

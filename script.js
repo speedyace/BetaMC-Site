@@ -7,7 +7,9 @@ function onPageLoaded() {
         "zuh",
         "guh",
         "CruxyMC is always right",
-        "betamc.org"
+        "betamc.org",
+        "ADMIN!!!11!!1",
+        "Also play Rat Game!"
     ]
 
     let splashnumber = Math.floor(Math.random() * splashes.length);
