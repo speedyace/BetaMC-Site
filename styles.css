@@ -149,7 +149,7 @@ body.donations #mainText {
     text-align: right;
     font-style: normal; 
     position: fixed;
-    height:32px;
+    height: 32px;
     bottom: 10px;
     right: 10px;
 }
@@ -172,7 +172,6 @@ body.donations .footerContainer {
     position: relative;
     margin-top: 50px;
     text-align: center;
-    padding: 20px;
 }
 
 .footerContainer a {
