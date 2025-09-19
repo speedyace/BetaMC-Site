@@ -143,6 +143,22 @@ body.donations #mainText {
     color: white;
 }
 
+.footerSocials {
+    color: #ffffffef;
+    font-size: x-small;
+    text-align: right;
+    font-style: normal; 
+    position: fixed;
+    height:32px;
+    bottom: 10px;
+    right: 10px;
+}
+
+.footerSocials img {
+    height: auto;
+    width: 32px;
+}
+
 .footerContainer {
     color: #ffffffef;
     font-size: x-small;
