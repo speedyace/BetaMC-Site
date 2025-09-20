@@ -9,6 +9,7 @@ function onPageLoaded() {
         "CruxyMC is always right",
         "betamc.org",
         "ADMIN!!!11!!1",
+        "PROPAGANDA"
         "Also play Rat Game!"
     ]
 
