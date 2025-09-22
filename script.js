@@ -10,6 +10,7 @@ function onPageLoaded() {
         "betamc.org",
         "ADMIN!!!11!!1",
         "PROPAGANDA"
+        "How to: X-Ray"
         "Also play Rat Game!"
     ]
 
